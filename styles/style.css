@@ -1,0 +1,149 @@
+
+/*@font-face {
+  font-family: "Montserrat";
+  src: url('/fonts/Montserrat-SemiBold.ttf') format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}*/
+
+@font-face {
+  font-family: Open Sans;
+  src: url(Montserrat-SemiBold.ttf);
+}
+
+body {
+  /*font-family: Arial, sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+}
+
+
+header {
+  display: block;
+}
+.header {
+  width: 100%;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    top: 0;
+    border-width: 0 0 1px;
+}
+
+.header-wrapper {
+  padding: 0.5em 0;
+  line-height: 1em;
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header-logo {
+    font-size: 2em;
+    font-weight: 800;
+    float: left;
+}
+img.logo {
+    width: 8%;
+}
+.logo-end {
+    color: #ff9f35;
+    font-size: 1.3em;
+}
+
+.header-menu {
+    float: right;
+    padding-top: 1.5em;
+    font-size: 18px;
+}
+
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-menu li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+.header-menu li a {
+    display: block;
+}
+.header-menu li a {
+    letter-spacing: .12em;
+    line-height: 1.5em;
+    background-size: .05em 2px,.05em 2px,2px 1px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-burgerMenu {
+    display: none;
+    cursor: pointer;
+    padding: 12px 0;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+}
+.hero {
+    padding: 20em 0 21em 0;
+    text-align: center;
+    margin: 0 auto;
+    color: blue;
+    background: url(../images/banner2.jpg) 50% 0 no-repeat;
+}
+h3 {
+    font-size: 3em !important;
+}
+
+.container .info{
+  padding-top: 2em;
+}
+
+.container.pdb-5 {
+  padding-bottom: 7em;
+}
+
+.container.pdt-5{
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+
+.pdt-4 {
+  padding-top: 3em;
+  padding-bottom: 5em;
+}
+
+.padding-top-5 {
+  padding-top: 4em;
+}
+
+.landing-page .icon-big {
+    font-size: 70px;
+}
+
+.text-success-p {
+    color: #31A8D9 !;
+}
+
+.team-member {
+    padding-top: 2em;
+}
+
+.navbar-default {
+    background-color: #60c4ed !important;
+     border-color: 0px;
+}
+.small-title {
+  font-size: 14px;
+    padding-bottom: 15px;
+}
+.pd-5 {
+    padding-bottom: 4em;
+}

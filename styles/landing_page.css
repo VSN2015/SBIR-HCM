@@ -1,0 +1,104 @@
+
+.heading-landing-page{
+  text-align: center;
+}
+
+.landing-page .heading h1{
+  font-size: 50px;
+}
+/*
+.landing-page header {
+  background: url(../images/banner2.jpg) 50% 0 no-repeat;
+  height: 480px;
+  padding-top: 50px;
+  margin-bottom: 30px;
+}*/
+
+.landing-page .heading h1 {
+  font-size: 68px;
+  text-align: center;
+  color: coral;
+  margin-top: 120px;
+  font-weight: bold;
+}
+
+.sub-title{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: blueviolet !important;
+}
+
+.img-small {
+  width: 50%;
+  /*height: 100px !important;*/
+}
+
+.section-title{
+  font-weight: bold;
+  color: #31A8D9;
+  text-align: justify;
+}
+
+.member-name{
+  color: #31a8d9;
+  font-weight: bold;
+}
+p{
+  font-size: 17px;
+}
+
+.logo-hufi{
+  width: 130px;
+  height: 110px;
+}
+
+.logo-dhsp{
+  width: 200px;
+  height: 100px;
+}
+
+.logo-hue{
+  width: 100px;
+  height: 100px;
+}
+
+.logo-vast{
+  width: 150px;
+  height: 100px;
+}
+
+.menu-title, .menu-banner{
+  color: #31a8d9 !important;
+  font-weight: bold !important;
+}
+
+.navbar-default {
+    color: #31a8d9 !important;
+    border-color: #e7e7e7;
+}
+
+.menu-title{
+  font-size: 15px !important;
+}
+
+.menu-banner{
+  font-size: 25x !important;
+}
+
+.btn-detail{
+  background-color: #31a8d9 !important;
+}
+
+a.navy-link.btn.btn-sm.btn-detail {
+    color: white;
+}
+
+.landing-page .brand-desc{
+  width: 250px;
+  color: red;
+}
+
+.logo-sbirhcm{
+  width: 70px;
+}
